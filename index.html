@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <title>Financial Calculator</title>
 </head>
-<body>
-    <main>
-        <section>Compound Interest</section>
-        <section>Inflatio</section>
-        <section>Your Dream</section>
+
+<body class="font-['Comfortaa'] items-center flex flex-col">
+    <header class="flex static justify-center">
+        <nav class="flex items-center mt-12">
+                <div class=" text-center">
+            <h1 class="font-black text-5xl">Financial</h1>
+            <h2 class="font-black text-3xl">Calculator</h2>
+            <div class="mt-2 rounded-full bg-zinc-200 p-2 gap-2 flex flex-wrap">
+                <a class="rounded-full text-zinc-700 hover:bg-zinc-300 p-1 px-2 transition ">Interest</a>
+                <a class="rounded-full text-zinc-700 hover:bg-zinc-300 p-1 px-2">Inflation</a>
+                <a class="rounded-full text-zinc-700 hover:bg-zinc-300 p-1 px-2">Your Dream</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="mt-12 p-4 max-w-300 flex flex-col items-center w-full">
+        <section class="w-full">
+            <h3 class="font-black text-3xl">Interest</h3>
+            <div class="flex flex-wrap w-full">
+                <div class="">
+                    <label for="">Type</label>
+                    <label for=""></label>
+                    <label for=""></label>
+                    <label for=""></label>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
     </main>
     <script>
-        window.alert("This is not a financial recommendation and the values provided are based on formulas or in the past behavior, we are not responsible for your financial choices, thank you.")
+        //window.alert("This is not a financial recommendation and the values provided are based on formulas or in the past behavior, we are not responsible for your financial choices, thank you.")
     </script>
 </body>
+
 </html>
